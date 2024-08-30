@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Corner Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cozy Corner Café</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showImage('coffee')">
+                <img src="assets/icons/coffee-icon.png" alt="Coffee Icon"> Coffees
+            </a></li>
+            <li><a href="#" onclick="showImage('pasta')">
+                <img src="assets/icons/pasta-icon.png" alt="Pasta Icon"> Pastas
+            </a></li>
+            <li><a href="#" onclick="showImage('mojito')">
+                <img src="assets/icons/mojito-icon.png" alt="Mojito Icon"> Mojitos
+            </a></li>
+            <li><a href="#" onclick="showImage('pizza')">
+                <img src="assets/icons/pizza-icon.png" alt="Pizza Icon"> Pizzas
+            </a></li>
+        </ul>
+    </nav>
+
+    <div id="main-image" onclick="redirectToPage()">
+        <img id="current-image" src="assets/images/coffee-thumbnail.jpg" alt="Current Image">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cozy Corner Café. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
