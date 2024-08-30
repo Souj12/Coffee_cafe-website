@@ -1,0 +1,20 @@
+/project-directory
+    /assets
+        /images
+            background.jpg
+            coffee-thumbnail.jpg
+            pasta-thumbnail.jpg
+            mojito-thumbnail.jpg
+            pizza-thumbnail.jpg
+        /icons
+            coffee-icon.png
+            pasta-icon.png
+            mojito-icon.png
+            pizza-icon.png
+    index.html
+    coffee.html
+    pasta.html
+    mojito.html
+    pizza.html
+    style.css
+    scripts.js
